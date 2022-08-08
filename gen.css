@@ -10,7 +10,9 @@
     height: 110vh ;
     background-image: url(https://zuri.team/img/hero-bg.svg);
 }
-
+.hero-link{
+  text-decoration: none;
+}
 #home {
   display: flex;
   justify-content: center;
@@ -43,20 +45,20 @@
   font-family: Averta, sans-serif;
 }
 
-.btn1 {
+.section-btn {
   width: 250px;
   height: 45px;
-  background-color: #e7332b;
   border-color: #e7332b;
+}
+
+.btn1 {
+  background-color: #e7332b;
   color: #fff;
   border: none;
 }
 
 .btn2 {
-  width: 250px;
-  height: 45px;
   background-color: #fff;
-  border-color: #e7332b;
   border-width: 1px;
   color: #e7332b;
 }
@@ -389,9 +391,13 @@ font-size: 20px;
 .bobo{
     margin-bottom: 100px;
 }
-/* #google{
-background-color: black;
+footer{
+  background-color: #161617;
+ 
 }
 .orange{
-  margin-top: 100px;
-} */
+  margin-right: 850px;
+}
+.jet{
+ margin-top: 150px;
+}
