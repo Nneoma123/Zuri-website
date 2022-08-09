@@ -271,7 +271,7 @@ text-decoration: none;
     font-family: Graphik!;
     font-size: 20px;
     font-weight: 600;
-    font-style: normal!important;
+    font-style: normal;
 }
 .bq{
 color: #585858;
@@ -443,6 +443,9 @@ width: 300px;
 
 /* ingressive4goodstyling */
 
+.ig4header{
+  padding: 25px;
+}
 .ig4-list{
   display: flex;
   justify-content: center;
@@ -450,32 +453,50 @@ width: 300px;
   margin-left: 250px;
   font-size: 20px;
   padding: 20px;
+  margin: 0 auto;
  
 }
 
 .ig4navbar{
-  margin-left: 30px;
-  color: #585757!important;
+  margin-left: 70px;
+  color: #585757;
   text-decoration: none;
   font-family: Averta, sans-serif;
 }
 .ig4red{
   color: #e7332b;
   font-family: Averta, sans-serif;
-  font-size: 23px!important;
-  font-weight: 400!important;
-  line-height: 130%!important;
-  text-align: center!important;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 130%;
+  text-align: center;
+  margin-top: 50px;
 }
 .ig4mainp{
-  color: #1b1a20!important;
-    font-family: Averta, sans-serif;
-    font-size: 49px!important;
-    font-style: normal!important;
-    margin-left: 400px;
-    font-weight: 700!important;
-    line-height: 110%!important;
-    padding-top: 10px!important;
-    max-width: 470px; 
-
+    color: #1b1a20;
+    font-family:  Averta, sans-serif;
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    padding-top: 10px;
+    width: 450px;
+    text-align: center;
 }
+.picture{
+  display: flex;
+  justify-content: center;
+}
+.ig4p2{
+  color: #1b1a20;
+  font-family:  Averta, sans-serif;
+  font-size: 18px;
+  line-height: 130%;
+  width: 350px;
+  margin-left: 450px;
+  padding: 20px;
+}
+.graphic{
+  margin-top: 50px;
+}
+
