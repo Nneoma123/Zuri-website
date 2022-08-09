@@ -108,7 +108,7 @@
     text-decoration-line: none;
   }
 
-  footer{
+  #foot{
     display: flex;
     justify-content: space-around;
     align-content: center;
@@ -137,7 +137,7 @@ margin: 11px;
 
 
          /* zuri.styling */
-    #style{
+ #style{
         background-color: rgb(245, 240, 240);
     }
 .whiteb{
@@ -152,7 +152,16 @@ header{
     margin-right: 350px;
     
 }
-
+.nav-h{
+  background: #e7332b;
+  text-decoration: none;
+  margin-left: 35px;
+ font-family: Averta, sans-serif;
+ border-radius: 4px;
+ padding: 14px; 
+font-size: 15px;
+color: #ffffff;
+}
   .menu-list{
     display: flex;
     list-style: none;
@@ -175,6 +184,10 @@ header{
   }
   .yline{
     color:#e7332b;
+  }
+  .fs-line{
+    width: 108px;
+    margin-left: 505px;
   }
   .v{
     margin-top: 100px;
@@ -278,29 +291,37 @@ font-size: 20px;
 }  
 #icons{
     max-width: 1080px;
-    
-    
+    /* background-color: #fff; */
+}
+.brief{
+  background: #fff;
+  padding: 5px;
+  box-shadow: 80px;
+}
+#style{
+  background: #ffffff;
 }
 .icon09{
     display: flex;
     justify-content: center;
-    list-style: none;
-    
-    
+    list-style: none;      
 }
 .icon1{
     padding: 20px;
     font-family: Averta, sans-serif;
     color: #585858;
-    font-size: 17px;
-    /* background-color:; */
-    
-    /* border-style: ridge;
-    border-color: rgb(249, 244, 244);
-    border-width: 1px; */    
+    font-size: 17px;  
 }
 #git{
     max-width: 1080px;
+}
+.l1svg{
+width: 300px;
+}
+/* important>> */
+.svg1{
+  display: flex;
+  justify-content: right;
 }
 .wotw{
     font-family: Averta, sans-serif;
@@ -339,6 +360,7 @@ font-size: 20px;
     font-size: 17px;
     
   } 
+
 .grid2{
     background-color: #fff8E5;
 }
@@ -385,19 +407,38 @@ font-size: 20px;
 .mutton{
     margin-left: 400px;
     font-family: Averta, sans-serif;
-    margin-bottom: 150px;
+    /* margin-bottom: px; */
     margin-top: 32px;
 }
 .bobo{
     margin-bottom: 100px;
 }
-footer{
+.footerzuri-talent{
+  display: flex;
+  justify-content: space-around;
   background-color: #161617;
- 
+  padding: 50px;
 }
-.orange{
-  margin-right: 850px;
+.footerimg{
+  margin-right: 900px;
+  /* margin-top: ; */
 }
-.jet{
- margin-top: 150px;
+.blackbg{
+  padding: 16px;
+}
+.pfootr{
+  color: #ffffff;
+  padding: 16px;
+}
+#iconbox{
+  display: flex;
+}
+.fa-brands{
+  color: rgb(184, 184, 184);
+  font-size: 30px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+#box{
+  width: 900px;
 }
